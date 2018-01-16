@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Development", "Development", "{A4466419-B7E0-453E-A581-1205912E5616}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{195304C4-F4AE-4255-97DF-36BC380E2308}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_CommonAssemblyInfo", "_CommonAssemblyInfo", "{1ACA67E4-7A6B-41F8-885E-18BDFCD4B831}"
+	ProjectSection(SolutionItems) = preProject
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0B3513CF-ABAC-4401-970E-650E49E44092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topics.Core", "Development\Core\Topics.Core\Topics.Core.csproj", "{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{EC0D3303-1BFD-4D9C-9D34-21369A9D892F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4E5111BA-4F18-42E3-A400-BBC800A3ED4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "Development\Examples\DependencyInjection\DependencyInjection.csproj", "{4636AC16-EE58-4E1C-BF5E-D66964BD3476}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messaging", "Messaging", "{51BC7496-11D8-4495-AA6C-49188DD7058D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Topics.Core.Messaging.InProcess.UnitTests", "Development\Tests\Messaging\Topics.Core.Messaging.InProcess.UnitTests\Topics.Core.Messaging.InProcess.UnitTests.csproj", "{28093C6A-F642-45FF-B39D-70382EC1C18F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Nuget_Debug|Any CPU = Nuget_Debug|Any CPU
+		Nuget_Release|Any CPU = Nuget_Release|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Template_Debug|Any CPU = Template_Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}.Nuget_Debug|Any CPU.ActiveCfg = Nuget_Debug|Any CPU
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}.Nuget_Debug|Any CPU.Build.0 = Nuget_Debug|Any CPU
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}.Nuget_Release|Any CPU.ActiveCfg = Nuget_Release|Any CPU
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}.Nuget_Release|Any CPU.Build.0 = Nuget_Release|Any CPU
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}.Template_Debug|Any CPU.ActiveCfg = Template_Debug|Any CPU
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E}.Template_Debug|Any CPU.Build.0 = Template_Debug|Any CPU
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476}.Nuget_Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476}.Nuget_Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476}.Nuget_Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476}.Nuget_Release|Any CPU.Build.0 = Release|Any CPU
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476}.Template_Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476}.Template_Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28093C6A-F642-45FF-B39D-70382EC1C18F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28093C6A-F642-45FF-B39D-70382EC1C18F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28093C6A-F642-45FF-B39D-70382EC1C18F}.Nuget_Debug|Any CPU.ActiveCfg = Nuget_Debug|Any CPU
+		{28093C6A-F642-45FF-B39D-70382EC1C18F}.Nuget_Debug|Any CPU.Build.0 = Nuget_Debug|Any CPU
+		{28093C6A-F642-45FF-B39D-70382EC1C18F}.Nuget_Release|Any CPU.ActiveCfg = Nuget_Release|Any CPU
+		{28093C6A-F642-45FF-B39D-70382EC1C18F}.Nuget_Release|Any CPU.Build.0 = Nuget_Release|Any CPU
+		{28093C6A-F642-45FF-B39D-70382EC1C18F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28093C6A-F642-45FF-B39D-70382EC1C18F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28093C6A-F642-45FF-B39D-70382EC1C18F}.Template_Debug|Any CPU.ActiveCfg = Template_Debug|Any CPU
+		{28093C6A-F642-45FF-B39D-70382EC1C18F}.Template_Debug|Any CPU.Build.0 = Template_Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B3513CF-ABAC-4401-970E-650E49E44092} = {A4466419-B7E0-453E-A581-1205912E5616}
+		{1F7A7FF6-C5BC-475F-8D8A-6A6FA5F32F7E} = {0B3513CF-ABAC-4401-970E-650E49E44092}
+		{EC0D3303-1BFD-4D9C-9D34-21369A9D892F} = {A4466419-B7E0-453E-A581-1205912E5616}
+		{4E5111BA-4F18-42E3-A400-BBC800A3ED4D} = {A4466419-B7E0-453E-A581-1205912E5616}
+		{4636AC16-EE58-4E1C-BF5E-D66964BD3476} = {EC0D3303-1BFD-4D9C-9D34-21369A9D892F}
+		{51BC7496-11D8-4495-AA6C-49188DD7058D} = {4E5111BA-4F18-42E3-A400-BBC800A3ED4D}
+		{28093C6A-F642-45FF-B39D-70382EC1C18F} = {51BC7496-11D8-4495-AA6C-49188DD7058D}
+	EndGlobalSection
+EndGlobal
