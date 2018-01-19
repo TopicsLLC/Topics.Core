@@ -55,7 +55,7 @@ namespace Topics.Core.Messaging
                 _ctx = ContextRegistry.GetContext();
                 var hubs = _ctx.GetObjectsOfType(typeof(Hub));
 
-                foreach (DictionaryEntry de in hubs)
+                foreach (var de in hubs)
                 {
                     string name = de.Key.ToString();
                     Hub hub = de.Value as Hub;

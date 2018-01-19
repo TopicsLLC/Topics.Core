@@ -104,7 +104,7 @@ namespace Topics.Core.Messaging
         public static ITopicBus GetDefaultTopicBus()
         {
             var templates = _ctx.GetObjectsOfType(typeof(ITopicBus));
-            foreach (DictionaryEntry de in templates)
+            foreach (var de in templates)
             {
                 return de.Value as ITopicBus;
             }
